@@ -12828,3 +12828,7 @@ footer .nav-service li a {
 @media print {
     .hidden-print {
         display: none !important; } }
+
+.btn.btn-default, input[type="file"] + label.btn {
+    border-radius: 50px;
+    background-color: red !important; }

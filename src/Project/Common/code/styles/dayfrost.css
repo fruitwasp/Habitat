@@ -12832,5 +12832,5 @@ footer .nav-service li a {
 .well {
     border-radius: 10px; }
 
-.btn {
-    border-radius: 10px; }
+.btn.btn-default, input[type="file"] + label.btn {
+    border-radius: 50px !important; }
