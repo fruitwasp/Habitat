@@ -28,6 +28,7 @@
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -100,7 +101,7 @@
       <HintPath>..\..\..\..\packages\Sitecore.Marketing.Core.9.0.171219\lib\NET462\Sitecore.Marketing.Core.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.Marketing.Search, Version=12.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\packages\Sitecore.Marketing.Search.NoReferences.9.0.171219\lib\NET462\Sitecore.Marketing.Search.dll</HintPath>
+      <HintPath>..\..\..\..\lib\Sitecore\Sitecore.Marketing.Search.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.Marketing.Taxonomy, Version=12.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.Marketing.Taxonomy.9.0.171219\lib\NET462\Sitecore.Marketing.Taxonomy.dll</HintPath>

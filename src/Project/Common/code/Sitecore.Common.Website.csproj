@@ -265,6 +265,8 @@
     <Content Include="styles\dayfrost\components\atoms\_button.scss" />
     <Content Include="styles\dayfrost\components\atoms\_well.scss" />
     <Content Include="styles\dayfrost\components\_atoms.scss" />
+    <Content Include="styles\niteflight\components\atoms\_button.scss" />
+    <Content Include="styles\niteflight\components\_atoms.scss" />
     <None Include="Views\Web.config" />
     <None Include="web.config" />
     <None Include="web.Debug.config">
