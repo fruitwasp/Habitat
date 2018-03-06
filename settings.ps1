@@ -1,9 +1,9 @@
 # Solution parameters
 $SolutionPrefix = "habitat"
-$SitePostFix = "kevin.local"
+$SitePostFix = "wilfred.local"
 $webroot = "C:\inetpub\wwwroot"
 
-$SitecoreVersion = "9.0.0 rev. 171002"
+$SitecoreVersion = "9.0.0 rev. 171219"
 $InstallerVersion = "1.0.2"
 
 # Assets and prerequisites
@@ -17,9 +17,9 @@ $LicenseFile = "$AssetsRoot\license.xml"
 $CertPath = Join-Path "$AssetsRoot" "Certificates"
 
 # SQL Parameters
-$SqlServer = ""
+$SqlServer = "CLDBHPWDE\SQLEXPRESS"
 $SqlAdminUser = "sa"
-$SqlAdminPassword = ""
+$SqlAdminPassword = "Fredsch!1"
 
 # XConnect Parameters
 $XConnectConfiguration = "$AssetsRoot\xconnect-xp0.json"
@@ -30,7 +30,7 @@ $XConnectSiteName = "${SolutionPrefix}_xconnect.$SitePostFix"
 $XConnectCert = "$SolutionPrefix.$SitePostFix.xConnect.Client"
 $XConnectSiteRoot = Join-Path $webroot -ChildPath $XConnectSiteName
 $XConnectSqlCollectionUser = "sa"
-$XConnectSqlCollectionPassword = ""
+$XConnectSqlCollectionPassword = "Fredsch!1"
 
 # Sitecore Parameters
 $SitecoreSolrConfiguration = "$AssetsRoot\sitecore-solr.json"
@@ -43,4 +43,4 @@ $SitecoreSiteRoot = Join-Path $webroot -ChildPath $SitecoreSiteName
 # Solr Parameters
 $SolrUrl = "https://localhost:8983/solr"
 $SolrRoot = "c:\\solr-6.2.1"
-$SolrService = "Solr-2.6.1"
+$SolrService = "Solr-6.2.1"
