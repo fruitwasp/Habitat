@@ -9,12 +9,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{B67B295A-F0F3-4217-89BD-07CA7B420907}</ProjectGuid>
+    <ProjectGuid>{BA35A8F0-DE73-45A1-8257-A3091C1C794C}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Sitecore.Feature.MultivariateTest</RootNamespace>
-    <AssemblyName>Sitecore.Feature.MultivariateTest</AssemblyName>
+    <RootNamespace>Sitecore.Feature.Test</RootNamespace>
+    <AssemblyName>Sitecore.Feature.Test</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <UseIISExpress>false</UseIISExpress>
     <IISExpressSSLPort />
@@ -55,100 +55,9 @@
       <HintPath>..\..\..\..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Sitecore.Analytics, Version=11.18.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\lib\Sitecore\Sitecore.Analytics.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.Buckets">
-      <HintPath>..\..\..\..\lib\Sitecore\Sitecore.Buckets.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.ContentSearch">
-      <HintPath>..\..\..\..\lib\Sitecore\Sitecore.ContentSearch.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.ContentSearch.Linq">
-      <HintPath>..\..\..\..\lib\Sitecore\Sitecore.ContentSearch.Linq.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.ContentTesting">
-      <HintPath>..\..\..\..\lib\Sitecore\Sitecore.ContentTesting.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.ContentTesting.Intelligence">
-      <HintPath>..\..\..\..\lib\Sitecore\Sitecore.ContentTesting.Intelligence.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.ContentTesting.Model">
-      <HintPath>..\..\..\..\lib\Sitecore\Sitecore.ContentTesting.Model.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.ContentTesting.Model.xConnect">
-      <HintPath>..\..\..\..\lib\Sitecore\Sitecore.ContentTesting.Model.xConnect.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.ContentTesting.Mvc">
-      <HintPath>..\..\..\..\lib\Sitecore\Sitecore.ContentTesting.Mvc.dll</HintPath>
-    </Reference>
     <Reference Include="Sitecore.Kernel">
       <HintPath>..\..\..\..\lib\Sitecore\Sitecore.Kernel.dll</HintPath>
       <Private>True</Private>
-    </Reference>
-    <Reference Include="Sitecore.Marketing">
-      <HintPath>..\..\..\..\lib\Sitecore\Sitecore.Marketing.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.Marketing.Automation">
-      <HintPath>..\..\..\..\lib\Sitecore\Sitecore.Marketing.Automation.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.Marketing.Automation.ActivityDescriptors">
-      <HintPath>..\..\..\..\lib\Sitecore\Sitecore.Marketing.Automation.ActivityDescriptors.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.Marketing.Automation.ActivityDescriptors.Client">
-      <HintPath>..\..\..\..\lib\Sitecore\Sitecore.Marketing.Automation.ActivityDescriptors.Client.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.Marketing.Automation.Client">
-      <HintPath>..\..\..\..\lib\Sitecore\Sitecore.Marketing.Automation.Client.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.Marketing.Automation.Models">
-      <HintPath>..\..\..\..\lib\Sitecore\Sitecore.Marketing.Automation.Models.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.Marketing.Campaigns.Client">
-      <HintPath>..\..\..\..\lib\Sitecore\Sitecore.Marketing.Campaigns.Client.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.Marketing.Campaigns.Services">
-      <HintPath>..\..\..\..\lib\Sitecore\Sitecore.Marketing.Campaigns.Services.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.Marketing.Client">
-      <HintPath>..\..\..\..\lib\Sitecore\Sitecore.Marketing.Client.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.Marketing.Core, Version=12.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\lib\Sitecore\Sitecore.Marketing.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.Marketing.Definitions.MarketingAssets.Repositories">
-      <HintPath>..\..\..\..\lib\Sitecore\Sitecore.Marketing.Definitions.MarketingAssets.Repositories.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.Marketing.Operations.Xdb.ReferenceData">
-      <HintPath>..\..\..\..\lib\Sitecore\Sitecore.Marketing.Operations.Xdb.ReferenceData.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.Marketing.Operations.Xdb.ReferenceData.Model">
-      <HintPath>..\..\..\..\lib\Sitecore\Sitecore.Marketing.Operations.Xdb.ReferenceData.Model.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.Marketing.Operations.Xdb.ReferenceData.Service">
-      <HintPath>..\..\..\..\lib\Sitecore\Sitecore.Marketing.Operations.Xdb.ReferenceData.Service.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.Marketing.Search">
-      <HintPath>..\..\..\..\lib\Sitecore\Sitecore.Marketing.Search.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.Marketing.Segmentation.xMgmt">
-      <HintPath>..\..\..\..\lib\Sitecore\Sitecore.Marketing.Segmentation.xMgmt.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.Marketing.Taxonomy, Version=12.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\lib\Sitecore\Sitecore.Marketing.Taxonomy.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.Marketing.Taxonomy.xMgmt">
-      <HintPath>..\..\..\..\lib\Sitecore\Sitecore.Marketing.Taxonomy.xMgmt.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.Marketing.xMgmt, Version=12.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\lib\Sitecore\Sitecore.Marketing.xMgmt.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.Marketing.xMgmt.ReferenceData">
-      <HintPath>..\..\..\..\lib\Sitecore\Sitecore.Marketing.xMgmt.ReferenceData.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.Mvc">
       <HintPath>..\..\..\..\lib\Sitecore\Sitecore.Mvc.dll</HintPath>
@@ -160,9 +69,9 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
-    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
       <Private>True</Private>
@@ -194,42 +103,25 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\Feature\Feature.MultivariateTest.config">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="App_Config\Include\Feature\Feature.MultivariateTest.Serialization.config" />
+    <Content Include="App_Config\Include\Feature\Feature.Test.config" />
+    <Content Include="App_Config\Include\Feature\Feature.Test.Serialization.config" />
     <Content Include="packages.config">
       <SubType>Designer</SubType>
     </Content>
     <None Include="Properties\PublishProfiles\Local.pubxml" />
-    <Content Include="Views\MultivariateTest\Index.cshtml" />
     <None Include="Views\Web.config" />
-    <None Include="Web.config">
-      <SubType>Designer</SubType>
-    </None>
+    <None Include="Web.config" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <Compile Include="Controllers\MultivariateTestController.cs" />
-    <Compile Include="Models\MultivariateTest.cs" />
+    <Folder Include="Controllers\" />
+    <Folder Include="Models\" />
+    <Folder Include="Repositories\" />
+    <Folder Include="Views\Test\" />
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repositories\IMultivariateTestRepository.cs" />
-    <Compile Include="Repositories\MultivariateTestRepository.cs" />
-    <Compile Include="Templates.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Foundation\DependencyInjection\code\Sitecore.Foundation.DependencyInjection.csproj">
-      <Project>{366148b7-2392-4f42-80d6-786b7a3682ae}</Project>
-      <Name>Sitecore.Foundation.DependencyInjection</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\Foundation\Dictionary\code\Sitecore.Foundation.Dictionary.csproj">
-      <Project>{0d6ba4d8-c469-4ae9-9ebb-93bdf7d7e78f}</Project>
-      <Name>Sitecore.Foundation.Dictionary</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\foundation\Indexing\code\Sitecore.Foundation.Indexing.csproj">
-      <Project>{80213f24-577f-4f0b-a3b8-62485ea4d2f3}</Project>
-      <Name>Sitecore.Foundation.Indexing</Name>
-    </ProjectReference>
     <ProjectReference Include="..\..\..\foundation\SitecoreExtensions\code\Sitecore.Foundation.SitecoreExtensions.csproj">
       <Project>{b535703f-8d07-4f23-a533-2974bb4cc7b1}</Project>
       <Name>Sitecore.Foundation.SitecoreExtensions</Name>

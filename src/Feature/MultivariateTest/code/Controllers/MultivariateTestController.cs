@@ -2,18 +2,17 @@
 
 namespace Sitecore.Feature.MultivariateTest.Controllers
 {
-    using Test = Models.MultivariateTest;
+    using Sitecore.ContentTesting;
+    using Sitecore.ContentTesting.ContentSearch.Models;
+    using System.Collections.Generic;
 
     public class MultivariateTestController : Controller
     {
         public ActionResult Index()
         {
-            var test = new Test
-            {
-                Title = "Hallo Wilfred"
-            };
-
-            return View(test);
+            IEnumerable<TestingSearchResultItem> testingSearchResultItems = ContentTestingFactory.Instance.ContentTestStore.GetActiveTests();
+          
+            return View(testingSearchResultItems);
         }
     }
 }
