@@ -1,8 +1,9 @@
 ﻿using System.Web.Mvc;
-using Test = Sitecore.Feature.MultivariateTest.Models.MultivariateTest;
 
 namespace Sitecore.Feature.MultivariateTest.Controllers
 {
+    using Test = Models.MultivariateTest;
+
     public class MultivariateTestController : Controller
     {
         public ActionResult Index()
