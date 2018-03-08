@@ -215,6 +215,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\IMultivariateTestRepository.cs" />
     <Compile Include="Repositories\MultivariateTestRepository.cs" />
+    <Compile Include="Repositories\TestDefinitionRepository.cs" />
+    <Compile Include="Repositories\TestDefinitionRepositoryInterface.cs" />
     <Compile Include="Templates.cs" />
   </ItemGroup>
   <ItemGroup>
