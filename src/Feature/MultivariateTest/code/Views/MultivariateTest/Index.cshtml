@@ -1,13 +1,16 @@
-﻿@using Sitecore.Feature.MultivariateTest.Models
-@using Sitecore.ContentTesting.ContentSearch.Models;
-@model IEnumerable<TestingSearchResultItem>
+﻿@using Sitecore.Data;
+@model string
 <div>
     <h1>Tests</h1>
+
+    @*<p>@Model.Count</p>
 
     <ul>
         @foreach (var item in Model)
         {
-            <li>@item.Uri</li>
+            <li>@ObjectInfo.Print(item)</li>
         }
-    </ul>
+    </ul>*@
+
+    <p>@ObjectInfo.Print(Model)</p>
 </div>

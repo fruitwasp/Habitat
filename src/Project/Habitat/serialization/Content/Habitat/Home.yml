@@ -252,9 +252,6 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\admin
-    - ID: "700f4aad-ad3b-4058-8673-a0cee765a1f7"
-      Hint: __Content Test
-      Value: /sitecore/system/Marketing Control Panel/Test Lab/2018/03/07/14/10/Home AAAF7003D338402AAC8387F34E4D6C8B/Version
     - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
       Hint: BrowserTitle
       Value: Flexibility, Simplicity, Extensibility

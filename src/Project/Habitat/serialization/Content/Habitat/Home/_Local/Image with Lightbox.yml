@@ -1,0 +1,18 @@
+﻿---
+ID: "3103d4b3-2cf7-4dfb-a95a-c0529942c473"
+Parent: "49c3ae19-a2e2-47af-a679-4988de59b7d5"
+Template: "f0369e1a-9030-4a05-a09c-ef09b664ed27"
+Path: /sitecore/content/Habitat/Home/_Local/Image with Lightbox
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180309T094725Z
+    - ID: "9f51dead-ad6e-41c2-9759-7be17eb474a4"
+      Hint: MediaImage
+      Value: |
+        <image mediaid="{ACAE9DC2-D8BB-41C5-A251-D83EE3D5DF84}" />
